@@ -1,0 +1,37 @@
+{
+ "minutes": 48.58447916507721,
+ "gpus": 2,
+ "seeds": [
+  1,
+  2,
+  3
+ ],
+ "epochs": {
+  "3": 8,
+  "5": 6
+ },
+ "channels": {
+  "3": 48,
+  "5": 32
+ },
+ "hw": {
+  "rounds": 5,
+  "pretrain_shots": 400000,
+  "pre_epochs": 5,
+  "ft_epochs": 4,
+  "both_folds": true
+ },
+ "hw_status": {
+  "ok": true
+ },
+ "params": {
+  "cnn_d5_s2": 610353,
+  "cnn_d5_s1": 610353,
+  "cnn_d5_s3": 610353,
+  "hybrid_d5_s1": 610610,
+  "cnn_d3_s1": 507201,
+  "cnn_d3_s2": 507201,
+  "cnn_d3_s3": 507201,
+  "hybrid_d3_s1": 507458
+ }
+}
