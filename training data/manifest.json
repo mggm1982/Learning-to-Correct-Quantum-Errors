@@ -1,0 +1,31 @@
+{
+ "seed": 42,
+ "stim": "1.16.0",
+ "p_train": [
+  0.002,
+  0.004,
+  0.006,
+  0.008,
+  0.01
+ ],
+ "p_test": [
+  0.001,
+  0.002,
+  0.003,
+  0.004,
+  0.005,
+  0.006,
+  0.008,
+  0.01,
+  0.012
+ ],
+ "n_train": {
+  "3": 2000000,
+  "5": 3000000
+ },
+ "n_extra": {
+  "3": 0,
+  "5": 1000000
+ },
+ "note": "train/val/test/ood identical to v1 (same seeds); train_d5 additionally contains N_EXTRA shots; corr_mwpm_pred = correlated-MWPM decision used as hybrid-decoder input"
+}
